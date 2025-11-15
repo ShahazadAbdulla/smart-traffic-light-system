@@ -1,0 +1,11 @@
+# Create requirements.txt
+cat > requirements.txt << 'EOF'
+opencv-python>=4.5.0
+numpy>=1.21.0
+ultralytics>=8.0.0
+torch>=1.9.0
+torchvision>=0.10.0
+Pillow>=8.3.0
+requests>=2.25.0
+tqdm>=4.62.0
+EOF
